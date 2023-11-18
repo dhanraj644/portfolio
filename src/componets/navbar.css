@@ -1,0 +1,917 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    font-family: Poppins,sans-serif;
+    
+}
+.nav-bar{
+    align-items: flex-end;
+    bottom: 0;
+    display: flex;
+    left: 0;
+    position: fixed;
+    right: 0;
+    z-index: 1000;
+    color: #1a1a1a;
+}
+.nav-bar>a>i{
+    color: crimson;
+    padding-right: .5rem;
+}
+.nav-bar>a{
+    background-color: #1a1a1a;
+    color: #fff;
+    flex: 1 1;
+    font-size: 1.2rem;
+    text-decoration: none;
+    padding: 1.2rem;
+    text-align: center;
+    transition: .2s linear;
+}
+.nav-bar a:hover {
+    background: crimson;
+    padding-bottom: 5rem;
+}
+
+.nav-bar a:hover i {
+    color: #fff;
+}
+@media screen and (max-width:740px) {
+  .nav-bar>a>span{
+      display: none;
+  }
+  .nav-bar a:hover {
+      padding-bottom: 1rem;
+  }
+}
+
+.home
+  {
+    width: 100%;
+    height: 110vh;
+    background-color: #0d0d0d;
+  }
+  .hero-page{
+    background-color: #0d0d0d;
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+  }
+  .image{
+    margin-left: 50px;
+    margin-top: 50px;    
+  }
+  .image>img{
+    height: 35rem;
+    width: 30rem;
+   border-radius: 30% 70% 70% 30% / 30% 30% 70% 70%;
+  }
+ 
+  .text{
+    margin-top: 200px;
+    color: #fff;
+    justify-content: center;
+    flex: 1 1 42rem;
+    text-align:center;
+  }
+  .text>h2{
+    color: #fff;
+    font-size: 3rem;
+    font-weight: 600;
+  }
+  .text>h4{
+    font-size: 2rem;
+    color: crimson;
+    font-family: cursive;
+    font-weight: 100;
+
+  }
+  .text>p{
+    font-size: 1.4rem;
+    color: #aaa;
+   
+  }
+  @media screen and (max-width: 1030px) {
+    .image>img{
+      height: 25rem;
+      width: 20rem;
+     border-radius: 30% 70% 70% 30% / 30% 30% 70% 70%;
+    }
+    .text{
+      width: 50%;
+      flex: auto;
+      margin-top: 150px;
+    }
+  }
+  @media screen and (max-width: 768px) {
+    .home
+    {
+      width: 100%;
+      height: 120vh;
+    }
+    .image{
+      width: 100%;
+      text-align: center;
+    }
+    .image>img{
+      height: 25rem;
+      width: 20rem;
+     border-radius: 30% 70% 70% 30% / 30% 30% 70% 70%;
+    }
+    .text{
+      margin-top: 50px;
+    }
+  }
+  @media screen and (max-width: 425px) {
+    .home{
+      height: 152vh;
+    }
+    .image{
+      width: 100%;
+      text-align: center;
+    }
+    .image>img{
+      height: 25rem;
+      width: 20rem;
+     margin-left: -40px;
+    }
+    .text>h2{
+      font-size: 2.2rem;
+      
+    }
+    .text>h4{
+      font-size: 1.8rem;
+    }
+    .text>p{
+      font-size: 1rem;
+    }
+  }
+  @media screen and (max-width: 325px) {
+    .home{
+      height: 140vh;
+    }
+    .image{
+      width: 100%;
+      text-align: center;
+    }
+    .image>img{
+      height: 21rem;
+      width: 18rem;
+     margin-left: -50px;
+    }
+    .text>h2{
+      font-size: 1.9rem;  
+    }
+    .text>h4{
+      font-size: 1.4rem;
+    }
+    .text>p{
+      font-size: 0.8rem;
+    }
+  }
+
+  .about-page{
+    width: 100%;
+    height: auto;
+    background-color: #0d0d0d;
+  }
+  .titele-text{
+    color: #fff;
+    font-size: 5rem;
+    padding: 50px;
+  }
+  .titele-text>span{
+    color: crimson;
+  }
+  .personal-info{
+    padding:20PX;
+  }
+  .personal-info>h2{
+    color: #fff;
+    margin-left: 120px;
+    font-size:1.8rem;
+  }
+
+  .container{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 100px;
+   margin-left: 150px;
+  }
+
+  .box1>h3{
+    color: #fff;
+    font-size: 1.1rem;
+    font-weight: 400;
+    padding: 1rem 0;
+    padding-bottom: 10px;
+  }
+  .box1>h3>span{
+    color: #aaa;
+    font-weight: lighter;
+  }
+
+  .box2{
+    margin-left: 150px;
+  }
+  .box2>h3{
+    color: #fff;
+    font-size: 1.1rem;
+    font-weight: 400;
+    padding: 1rem 0;
+    padding-bottom: 10px;
+  }
+  .box2>h3>span{
+    color: #aaa;
+    font-weight: lighter;
+  }
+
+  .btn{
+    background: crimson;
+    border-radius: 5rem;
+    color: #fff;
+    display: inline-block;
+    margin-top: 1rem;
+    padding: 0.3rem 0.7rem 0.7rem 2rem;
+    margin-left: 150px;
+    width: 7.9rem;
+    height: 2rem;
+  }
+  .btn>i{
+    background: #fff;
+    border-radius: 50%;
+    color: crimson;
+    height: 2.5rem;
+    line-height: 2rem;
+    margin-left: 2rem;
+    text-align: center;
+    transition: .0s linear;
+    width: 2.5rem;
+  }
+  .btn:hover{
+    width: 9rem;
+  }
+  .btn:hover  i{
+    margin-left: 3rem;
+  }
+  @media screen and (max-width: 768px){
+    .container{
+      margin-left: 90px;
+      gap: 50px;
+    }
+    .box2{
+      margin-left: 0px;
+    }
+    .btn{
+      margin-left: 90px;
+    }
+  }
+  @media screen and (max-width: 500px){
+    .container{
+      margin-left: 90px;
+      gap: 10px;
+    }
+    .about-page{
+      width: 100%;
+      height: auto;
+     
+    }
+    .titele-text{
+    
+      font-size: 3rem;
+      
+    }
+   
+  }
+  @media screen and (max-width: 375px){
+    .container{
+      margin-left: 50px;
+      gap: 10px;
+    }
+    .about-page{
+      width: 100%;
+      height: auto;
+     
+    }
+    .box1>h3{
+      
+      font-size: 1rem;
+     
+    }
+    .titele-text{
+    
+      font-size: 3rem;
+      
+    }
+    .personal-info{
+      padding:2PX;
+    }
+    .personal-info>h2{
+      
+      margin-left: 50px;
+      font-size:1.8rem;
+    }
+    .btn{
+      margin-left: 50px;
+    }
+  }
+  @media screen and (max-width: 320px){
+    .container{
+      margin-left: 30px;
+      gap: 10px;
+    }
+    .about-page{
+      width: 100%;
+      height: auto;
+     
+    }
+    .box1>h3{
+      
+      font-size: 1rem;
+     
+    }
+    .titele-text{
+    
+      font-size: 2.5rem;
+      
+    }
+    .personal-info{
+      padding:2PX;
+    }
+    .personal-info>h2{
+      
+      margin-left: 50px;
+      font-size:1.5rem;
+    }
+    .btn{
+      margin-left: 50px;
+    }
+  }
+
+
+.skill-page{
+ width: 100%;
+ height: 80vh;
+ background-color: #0d0d0d;
+}
+.box-container{
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1.5rem;
+  justify-content: center;
+}
+.box{
+  box-shadow: rgba(0, 0, 0, 0.7) 0px 0.5rem 1rem;
+  text-align: center;
+  background: rgb(26, 26, 26);
+  border-radius: 0.5rem;
+  padding: 2rem;
+  width: 100px;
+  height: 100px;
+}
+.box>img{
+  width: 80px;
+  height: 80px;
+}
+.box>h4{
+  color: #fff;
+  padding-top: 10px;
+  font-weight: 100;
+  
+}
+.box:hover{
+  background-color:cornsilk;
+}
+.box:hover h4{
+  color: black;
+}
+@media screen and (max-width: 768px)
+{
+  .skill-page{
+    width: 100%;
+    height: 120vh;
+    background-color: #0d0d0d;
+   }
+}
+@media screen and (max-width: 425px)
+{
+  .skill-page{
+    width: 100%;
+    height: 150vh;
+    background-color: #0d0d0d;
+   }
+}
+@media screen and (max-width: 320px)
+{
+  .skill-page{
+    width: 100%;
+    height: 250vh;
+    background-color: #0d0d0d;
+   }
+}
+
+.education-page{
+  width: 100%;
+  height: 100vh;
+  background-color: #0d0d0d;
+
+}
+.box--container{
+  padding: 5rem;
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: 80px;
+  gap: 80px;
+}
+.e-box{
+border-left:2px solid #aaa;
+  
+ 
+}
+.e-box>i
+{
+color: #aaa;
+background-color:crimson ;
+border-radius: 50%;
+font-size: 20px;
+padding: 10px;
+line-height: 25px;
+position: absolute;
+margin-left: -22px;
+margin-top: -10px;
+text-align: center;
+}
+.e-box>span{
+color: #aaa;
+background-color: #1a1a1a;
+padding: 10px;
+margin-left: 50px;
+border-radius: 20px;
+
+}
+.e-box>h3{
+color: #fff;
+font-size: 1.3rem;
+ padding-top: 20px;
+ padding-left: 52px;
+}
+.e-box>p{
+  color: #aaa;
+  padding-bottom: 50px;
+  padding-top: 10px;
+  margin-left: 55px;
+}
+@media screen and (max-width: 1024px){
+  
+.education-page{
+  width: 100%;
+  height: 130vh;
+  background-color: #0d0d0d;
+
+}
+.box--container{
+  padding: 5rem;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0px;
+  margin-left: 180px;
+}
+
+}
+@media screen and (max-width: 768px){
+  
+  .education-page{
+    width: 100%;
+    height: 180vh;
+    background-color: #0d0d0d;
+  
+  }
+  .box--container{
+    padding: 5rem;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0px;
+    margin-left: 20px;
+  }
+  
+  }
+  @media screen and (max-width: 425px){
+  
+    .education-page{
+      width: 100%;
+      height: 180vh;
+      background-color: #0d0d0d;
+    
+    }
+    .box--container{
+      margin-top: -50px;
+      display: flex;
+      flex-wrap: wrap;
+      gap: 0px;
+      margin-left: 0px;
+    }
+    
+      .e-box>h3{
+      color: #fff;
+      font-size: 1.1rem;
+       padding-top: 20px;
+       padding-left: 52px;
+      }
+    }
+    @media screen and (max-width: 375px){
+  
+      .education-page{
+        width: 100%;
+        height: 142vh;
+        background-color: #0d0d0d;
+      
+      }
+      .titele-text{
+        font-size: 2.6rem;
+      }
+      .box--container{
+        margin-top: -50px;
+        display: flex;
+        flex-wrap: wrap;
+        gap: 0px;
+        margin-left: 0px;
+      }
+      
+        .e-box>h3{
+        color: #fff;
+        font-size: 0.8rem;
+         padding-top: 20px;
+         padding-left: 35px;
+        }
+        .e-box>span{
+          color: #aaa;
+          background-color: #1a1a1a;
+          padding: 7px;
+          margin-left: 35px;
+          border-radius: 20px;
+          
+          }
+          .e-box>i{
+          color: #aaa;
+          background-color:crimson;
+          border-radius: 50%;
+          font-size: 18px;
+          padding: 5px;
+          line-height: 25px;
+          position: absolute;
+          margin-left: -18px;
+          margin-top: -10px;
+         }
+         .e-box>p{
+          font-size: 12px;
+         }
+      }
+      @media screen and (max-width: 375px){
+        .education-page{
+          width: 100%;
+          height: auto;
+          background-color: #0d0d0d;
+        
+        }
+        .e-box{
+          margin-left: -30px;
+          margin-top: -30px;
+        }
+        .e-box>p{
+          font-size: 12px;
+          margin-left: 40px;
+         }
+         .titele-text{
+          font-size: 2rem;
+        }
+      }
+
+      .project-page{
+        width: 100%;
+        height: 110vh;
+        background-color: #0d0d0d;
+      }
+      .proj-container{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 20px;
+      
+      }
+      .p-box{
+        width: 22rem;
+        height: 22rem;
+        background-color: #1a1a1a;
+        position: relative;
+        animation: linear 0.2s;
+      }
+      .p-box>img{
+        width: 22rem;
+        height: 22rem;
+      }
+      .overlay{
+        position: absolute;
+        background-color:#1a1a1a;
+        width: 22rem;
+        height: 22rem;
+        display: none;
+      }
+      .overlay>center>h3{
+        color: #fff;
+        font-size: 2rem;
+        margin-top: 100px;
+        
+      }
+      .overlay>p{
+        color: #aaa;
+        padding: 20px;
+      }
+      .overlay>center>a{
+        color: crimson;
+        font-size: 1.5rem;
+        text-decoration: none;
+        
+      }
+      .p-box:hover .overlay{
+        display: block;
+      }
+      @media screen and (max-width: 1100px){
+        .proj-container{
+          display: flex;
+          flex-wrap: wrap;
+          justify-content: center;
+          gap: 10px;
+        
+        }
+        .p-box{
+          width: 20rem;
+          height: 22rem;
+        }
+        .p-box>img{
+          width: 20rem;
+          height: 22rem;
+        }
+        .overlay{
+          width: 20rem;
+          height: 22rem;
+        }
+
+      }
+      @media screen and (max-width: 978px){
+        .project-page{
+          width: 100%;
+          height: 190vh;
+        }
+        .proj-container{
+          display: flex;
+          flex-wrap: wrap;
+          justify-content: flex-start;
+
+          gap: 10px;
+        
+        }
+        .p-box{
+          margin-left: 35px;
+          width: 20rem;
+          height: 22rem;
+        }
+        .p-box>img{
+        
+          width: 20rem;
+          height: 22rem;
+        }
+        .overlay{
+        
+          width: 20rem;
+          height: 22rem;
+        }
+      }
+      @media screen and (max-width: 706px){
+        .project-page{
+          width: 100%;
+          height: 260vh;
+        }
+        .proj-container{
+          display: flex;
+          flex-wrap: wrap;
+          justify-content: center;
+
+          gap: 10px;
+        
+        }
+        .p-box{
+          margin-left: 35px;
+          width: 20rem;
+          height: 22rem;
+        }
+        .p-box>img{
+          width: 20rem;
+          height: 22rem;
+        }
+        .overlay{
+          width: 20rem;
+          height: 22rem;
+        }
+
+      }
+      @media screen and (max-width: 425px){
+        .p-box{
+          margin-left: 0px;
+        }
+
+      }
+      @media screen and (max-width: 320px){
+        .project-page{
+          width: 100%;
+          height: 240vh;
+        }
+        .p-box{
+        
+          width: 18rem;
+          height: 20rem;
+        }
+        .p-box>img{
+        
+          width: 18rem;
+          height: 20rem;
+        }
+        .overlay{
+        
+          width: 18rem;
+          height: 20rem;
+        }
+      }
+
+
+      .contact-page{
+        width: 100%;
+        height: 120vh;
+        background-color: #0d0d0d;
+      }
+      .form-container{
+        display: flex;
+        flex-wrap: wrap;
+      }
+      .left{
+        width: 45%;
+
+      }
+      
+      .c-box{
+        margin-left: 180px;
+        margin-top: 40px;
+      }
+      .c-box>i{
+        color: crimson;
+        font-size: 30px;
+        position: absolute;
+        margin-left: -50px;
+      }
+      .info>h3{
+        color: #fff;
+        font-size: 25px;
+      }
+      .info>p{
+        color: #aaa;
+      }
+      .share{
+        padding: 10px;
+        margin-left: 160px;
+        margin-top: 10px;
+      }
+      .share>a{
+        text-decoration: none;
+        color: #fff;
+        background-color: #1a1a1a;
+        border-radius: 50%;
+        padding: 15px;
+        line-height: 20px;
+        font-size: 20px;
+        margin-left: 5px;
+      }
+      .share>a:hover{
+        background-color: crimson;
+      }
+      
+      .form-div{
+        width: 46%;
+        padding: 1rem;
+        margin: 20px;
+        border: 2px solid crimson;
+        border-radius: 12px;
+        /* box-shadow: #1a1a1a 2px 2px; */
+      }
+      .form-div>center>i{
+        color: crimson;
+        font-size: 50px;
+      }
+      .form-div>form{
+        padding: 1rem;
+        padding-bottom: 0rem;
+      }
+      .form-div>form>.input1{
+        border-radius: 12px;
+        text-align: center;
+        width: 47%;
+        height: 50px;
+        margin: 5px;
+        margin-top: 10px;
+        background-color: #1a1a1a;
+      }
+      .form-div>form>.input2{
+        border-radius: 12px;
+        padding: 10px;
+        width: 93%;
+        height: 50px;
+        margin: 6px;
+        background-color: #1a1a1a;
+        
+      }
+      .form-div>form>.btn-form{
+        border-radius: 12px;
+        padding: 10px;
+        width: 97%;
+        height: 50px;
+        margin: 5px;
+        color: #fff;
+        background-color: crimson;   
+      }
+      @media screen and (max-width: 1080px){
+        .form-div>form>.input1{
+          width: 45%;
+        } 
+        .form-div>form>.input2{
+          width: 88%;
+        }
+        .form-div>form>.btn-form{
+          width:94%;
+        }
+      }
+      @media screen and (max-width: 768px){
+        .contact-page{
+          width: 100%;
+          height: 180vh;
+          background-color: #0d0d0d;
+        }
+        .left{
+          width: 100%;
+          margin-left: 17%;
+        }
+        .form-div{
+          width: 100%;
+          margin: 10%;
+          margin-top: 50px;
+        }
+        .form-div>form>.input1{
+          width: 100%;
+        }
+        .form-div>form>.input2{
+          width: 95%;
+          text-align: center;
+        }
+        .form-div>form>.btn-form{
+          width:100%;
+        }
+      }
+      @media screen and (max-width: 425px){
+        .contact-page{
+          width: 100%;
+          height: 220vh;
+        }
+        .left{
+          margin-left: -40px;
+        }
+        .form-div>form>.input2{
+          width: 93%;
+        }
+      }
+      @media screen and (max-width: 375px){
+        .left{
+          margin-left: -50px;
+        }
+      }
+      @media screen and (max-width: 320px){
+       
+        .contact-page{
+          height: 220vh;
+        }
+        .left{
+          margin-left: -100px;
+        }
+        .share{
+          margin-top: 10px;
+          padding-top: 20px;
+          margin-left: 130px;
+        }
+        .form-div>form>.input1{
+          height: 30px;
+        }
+        .form-div>form>.input2{
+          width: 90%;
+          height: 30px;
+        }
+        .form-div>form>.btn-form{
+          width:100%;
+          height: 40px;
+        }
+      }
