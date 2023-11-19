@@ -1,5 +1,5 @@
 import React from 'react'
-
+import project1 from './images/project1.jpg'
 function Project() {
   return (
     <secton>
@@ -22,7 +22,7 @@ function Project() {
                  
 
               </div>
-            <img src='images/project1.jpg'></img>
+            <img src={project1}></img>
             </div>
             <div className='p-box'>
             <div className='overlay'>
@@ -38,7 +38,7 @@ function Project() {
                  
 
               </div>
-            <img src='images/project1.jpg'></img>
+            <img src={project1}></img>
           </div>
           <div className='p-box'>
           <div className='overlay'>
@@ -54,7 +54,7 @@ function Project() {
                  
 
               </div>
-            <img src='images/project1.jpg'></img>
+            <img src={project1}></img>
           </div>
         </div>
         </div> 

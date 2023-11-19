@@ -34,8 +34,9 @@ const About = () => {
         <i class='fas fa-download'></i>
         </div>
         
+        <Skill/>
     </section>
-    <Skill/>
+    
       
     </>
   )

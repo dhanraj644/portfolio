@@ -1,4 +1,10 @@
 import React from 'react'
+import html from'./images/html.png'
+import css from './images/css.png'
+import javascript from './images/javascript.png'
+import bootstrap from './images/bootstrap.png'
+import reactjs from './images/reactjs.png'
+import java from './images/java.png'
 const Skill = () => {
   return (
     
@@ -9,34 +15,34 @@ const Skill = () => {
     
           <div className='box-container'>
             <div className='box'>
-              <img src='images/html.png' />
+              <img src={html} />
               <br/>
               <h4>HTML</h4>
             </div>
             <div className='box'>
-            <img src='images/css.png' />
+            <img src={css} />
               <br/>
               <h4>CSS</h4>
             </div>
             <div className='box'>
-            <img src='images/javascript.png' />
+            <img src={javascript} />
               <br/>
               <h4>JAVASCRIPT</h4>
             </div>
             
             <div className='box'>
               
-            <img src='images/bootstrap.png' />
+            <img src={bootstrap}/>
               <br/>
               <h4>BOOTSTRAP</h4>
             </div>
             <div className='box'>
-            <img src='images/reactjs.png' />
+            <img src={reactjs} />
               <br/>
               <h4>REACT J.S</h4>
             </div>
             <div className='box'>
-            <img src='images/java.png' />
+            <img src={java} />
               <br/>
               <h4>JAVA</h4>
             </div>

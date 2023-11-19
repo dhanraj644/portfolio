@@ -1,12 +1,13 @@
 import React from 'react'
 import './navbar.css'
+import Dhanraj from './images/Dhanraj.jpeg'
 export const Home = () => {
   return (
    
     <div className='home' >
     <section className='hero-page'>
      <div className="image">
-      <img src='images/dhanraj.jpeg'></img>
+      <img src={Dhanraj}></img>
      </div>
 
      <div className='text'>
