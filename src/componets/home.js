@@ -1,5 +1,4 @@
 import React from 'react'
-import './navbar.css'
 import Dhanraj from './images/Dhanraj.jpeg'
 export const Home = () => {
   return (
