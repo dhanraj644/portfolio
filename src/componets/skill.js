@@ -12,7 +12,6 @@ const Skill = () => {
         <center>
         <h2 className='titele-text'><span>MY</span> Skills</h2>
         </center>
-    
           <div className='box-container'>
             <div className='box'>
               <img src={html} />
@@ -28,10 +27,8 @@ const Skill = () => {
             <img src={javascript} />
               <br/>
               <h4>JAVASCRIPT</h4>
-            </div>
-            
+            </div>     
             <div className='box'>
-              
             <img src={bootstrap}/>
               <br/>
               <h4>BOOTSTRAP</h4>
@@ -46,9 +43,8 @@ const Skill = () => {
               <br/>
               <h4>JAVA</h4>
             </div>
-          </div>
-        
-        </section>
+          </div>    
+            </section>
   
   )
 }

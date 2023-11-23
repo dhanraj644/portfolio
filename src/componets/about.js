@@ -1,16 +1,12 @@
 import React from 'react';
 import Skill from './skill';
-
-
 const About = () => {
   return (
     <>
     <section className='about-page'>
-  
         <center>
         <h2 className='titele-text'>ABOUT <span>ME</span></h2>
         </center>
-  
       <div className='personal-info'>
        <h2> PERSONAL INFO
        </h2>
@@ -28,12 +24,14 @@ const About = () => {
         <h3><span>Language : </span>Hindi/English</h3>
         </div>
       </div>
-
+      <a >
       <div className='btn'>
-        resume
+        <span> resume</span>
         <i class='fas fa-download'></i>
         </div>
-        
+        </a>
+        <div className='resume-page'>
+        </div>
         <Skill/>
     </section>
     

@@ -238,15 +238,15 @@
     line-height: 2rem;
     margin-left: 2rem;
     text-align: center;
-    transition: .0s linear;
     width: 2.5rem;
   }
   .btn:hover{
-    width: 9rem;
+    width: 8.2rem;
   }
   .btn:hover  i{
-    margin-left: 3rem;
-  }
+    margin-left: 2.5rem;
+    position: absolute;  
+  }  
   @media screen and (max-width: 768px){
     .container{
       margin-left: 90px;
@@ -372,12 +372,6 @@
 .box:hover h4{
   color: black;
 }
-@media screen and (max-width: 768px)
-{
-  
-}
-
-
 .education-page{
   width: 100%;
   height: auto;
@@ -393,11 +387,8 @@
 }
 .e-box{
 border-left:2px solid #aaa;
-  
- 
 }
-.e-box>i
-{
+.e-box>i{
 color: #aaa;
 background-color:crimson ;
 border-radius: 50%;
@@ -731,7 +722,6 @@ font-size: 1.3rem;
         margin: 20px;
         border: 2px solid crimson;
         border-radius: 12px;
-        /* box-shadow: #1a1a1a 2px 2px; */
       }
       .form-div>center>i{
         color: crimson;
@@ -749,11 +739,13 @@ font-size: 1.3rem;
         margin: 5px;
         margin-top: 10px;
         background-color: #1a1a1a;
+        color: #aaa;
       }
       .form-div>form>.input2{
         border-radius: 12px;
         padding: 10px;
         width: 93%;
+        color: #aaa;
         height: 50px;
         margin: 6px;
         background-color: #1a1a1a;
