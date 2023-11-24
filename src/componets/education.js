@@ -21,7 +21,7 @@ function Education() {
             </div>
 
             <div className="e-box">
-              <i class="fas fa-graduation-cap"></i>
+              <i className="fas fa-graduation-cap"></i>
               <span>2020-2023</span>
               <h3>BACHELORE OF COMPUTER APLICATION (BCA)</h3>
               <p>Aburoad rajasthan india</p>
@@ -30,14 +30,14 @@ function Education() {
 
           <div className="box-1">
             <div className="e-box">
-              <i class="fas fa-graduation-cap"></i>
+              <i className="fas fa-graduation-cap"></i>
               <span>2029-2020</span>
               <h3>GOVT.SR.SEC.SCHOOL (12th)</h3>
               <p>ORIYA,MOUNT ABU RAJASTHAN</p>
             </div>
 
             <div className="e-box">
-              <i class="fas fa-graduation-cap"></i>
+              <i className="fas fa-graduation-cap"></i>
               <span>2017-2018</span>
               <h3>GOVT.SR.SEC.SCHOOL (10th)</h3>
               <p>ORIYA,MOUNT ABU RAJASTHAN</p>

@@ -47,7 +47,7 @@ function Contact() {
 
      <div className='form-div'>
       <center>
-        <i class='fas fa-envelope'></i>
+        <i className='fas fa-envelope'></i>
       </center>
 
         <form>
