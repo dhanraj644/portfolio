@@ -374,7 +374,7 @@
 }
 .education-page{
   width: 100%;
-  height: auto;
+  padding-bottom: 5rem;
   background-color: #0d0d0d;
 
 }
@@ -791,6 +791,15 @@ font-size: 1.3rem;
         }
         .form-div>form>.btn-form{
           width:100%;
+        }
+      }
+      @media screen and (max-width: 550px){
+        
+        .left{
+          margin-left: -20px;
+        }
+        .form-div>form>.input2{
+          width: 93%;
         }
       }
       @media screen and (max-width: 425px){

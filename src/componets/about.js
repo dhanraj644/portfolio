@@ -31,6 +31,7 @@ const About = () => {
         </div>
         </a>
         <div className='resume-page'>
+          <img></img>
         </div>
         <Skill/>
     </section>
