@@ -50,15 +50,15 @@ function Contact() {
         <i className='fas fa-envelope'></i>
       </center>
 
-        <form>
-          <input type='text' placeholder='Your name' className='input1'/>
-          <input type='mail' placeholder='Your mail' className='input1'/>
+        <form action="https://formspree.io/f/mdovobez" method="post">
+          <input type='text' name="name" id="name" placeholder='Your name' className='input1'/>
+          <input type='email' name="email" id="email" placeholder='Your mail' className='input1'/>
           <br/>
-          <input type='mail' placeholder='Subject' className='input2'/>
+          <input type='text' name="subject" id="subject" placeholder='Subject' className='input2'/>
           <br/>
           <textarea cols='81' className='input2' placeholder='Message'></textarea>
           <br/>
-          <input type='submit' value='send massage' className='btn-form'></input>
+          <input type='submit'  name="subject" id="subject" value='send massage' className='btn-form'></input>
 
         </form>
      </div>

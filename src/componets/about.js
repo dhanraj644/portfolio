@@ -1,8 +1,32 @@
-import React from 'react';
+import React, { useState } from 'react';
 import Skill from './skill';
+import Resume from './images/resume.jpg';
+
+
+
+
 const About = () => {
+  const none1 = "none";
+  const [display, setDp]= useState(none1);
+
+  const myFunction =() =>{
+    let newDp="block";
+    setDp(newDp);
+      };
+
+      const myClose =() =>{
+        let newDp="none";
+        setDp(newDp);
+          };
+
   return (
     <>
+    <section className='resume_section' >
+    <div className='resume_page' style={{display:display}}>
+      <i class="fa fa-times" aria-hidden="true" onClick={myClose}></i>
+      <img src={Resume}></img>
+    </div>
+    </section>
     <section className='about-page'>
         <center>
         <h2 className='titele-text'>ABOUT <span>ME</span></h2>
@@ -25,20 +49,22 @@ const About = () => {
         </div>
       </div>
       <a >
-      <div className='btn'>
+      <div id='toggel-open' className='btn' onClick={myFunction} > 
         <span> resume</span>
         <i class='fas fa-download'></i>
         </div>
         </a>
-        <div className='resume-page'>
-          <img></img>
-        </div>
+        
+        
+
         <Skill/>
     </section>
     
-      
+     
     </>
+    
   )
 }
+
 
 export default About

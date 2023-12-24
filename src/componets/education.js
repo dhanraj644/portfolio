@@ -31,7 +31,7 @@ function Education() {
           <div className="box-1">
             <div className="e-box">
               <i className="fas fa-graduation-cap"></i>
-              <span>2029-2020</span>
+              <span>2019-2020</span>
               <h3>GOVT.SR.SEC.SCHOOL (12th)</h3>
               <p>ORIYA,MOUNT ABU RAJASTHAN</p>
             </div>

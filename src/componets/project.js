@@ -25,36 +25,35 @@ function Project() {
             <img src={project1}></img>
             </div>
             <div className='p-box'>
-            <div className='overlay'>
+            <div className='overlay' style={{display: "block"}}>
                 <center>
-                <h3>Tourism site</h3> 
+                <h3></h3> 
                 </center>
-                <p>City is blessed with many natural 
-                  tourist places among which main places 
-                  are the</p>
+                <p></p>
                   <center>
-                  <a href='https://aburoadtourism.com/' target='blank'>view Project</a>
+                  <a href='#'>Soon !</a>
                   </center>
                  
 
               </div>
-            <img src={project1}></img>
+            <img ></img>
+            
           </div>
           <div className='p-box'>
-          <div className='overlay'>
+
+
+          <div className='overlay' style={{display: "block"}}>
                 <center>
-                <h3>Tourism site</h3> 
+                <h3></h3> 
                 </center>
-                <p>City is blessed with many natural 
-                  tourist places among which main places 
-                  are the</p>
+                <p></p>
                   <center>
-                  <a href='https://aburoadtourism.com/' target='blank'>view Project</a>
+                  <a href='#'>Soon !</a>
                   </center>
                  
 
               </div>
-            <img src={project1}></img>
+            <img ></img>
           </div>
         </div>
         </div> 
