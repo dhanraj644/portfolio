@@ -15,7 +15,7 @@ return(
       
        
        <Routes>
-        <Route exact path='/portfolio' element={<Home/>}/>
+        <Route exact path='/' element={<Home/>}/>
         <Route exact path='/about' element={<About/>}/>
         <Route exact path='/education' element={<Education/>}/>
         <Route exact path='/project' element={<Project/>}/>
