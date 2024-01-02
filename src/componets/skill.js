@@ -14,32 +14,33 @@ const Skill = () => {
         </center>
           <div className='box-container'>
             <div className='box'>
-              <img src={html} />
+              <img src={html}  alt=""/>
               <br/>
               <h4>HTML</h4>
             </div>
             <div className='box'>
-            <img src={css} />
+            <img src={css}  alt=""/>
               <br/>
               <h4>CSS</h4>
             </div>
             <div className='box'>
-            <img src={javascript} />
+            <img src={javascript}
+             alt=""/>
               <br/>
               <h4>JAVASCRIPT</h4>
             </div>     
             <div className='box'>
-            <img src={bootstrap}/>
+            <img src={bootstrap} alt=""/>
               <br/>
               <h4>BOOTSTRAP</h4>
             </div>
             <div className='box'>
-            <img src={reactjs} />
+            <img src={reactjs} alt=""/>
               <br/>
               <h4>REACT J.S</h4>
             </div>
             <div className='box'>
-            <img src={java} />
+            <img src={java} alt=""/>
               <br/>
               <h4>JAVA</h4>
             </div>

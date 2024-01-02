@@ -24,7 +24,7 @@ const About = () => {
     <section className='resume_section' >
     <div className='resume_page' style={{display:display}}>
       <i class="fa fa-times" aria-hidden="true" onClick={myClose}></i>
-      <img src={Resume}></img>
+      <img src={Resume} alt=""></img>
     </div>
     </section>
     <section className='about-page'>
@@ -48,14 +48,11 @@ const About = () => {
         <h3><span>Language : </span>Hindi/English</h3>
         </div>
       </div>
-      <a >
+      
       <div id='toggel-open' className='btn' onClick={myFunction} > 
         <span> resume</span>
         <i class='fas fa-download'></i>
         </div>
-        </a>
-        
-        
 
         <Skill/>
     </section>
