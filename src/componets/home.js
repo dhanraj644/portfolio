@@ -14,10 +14,13 @@ export const Home = () => {
       <br/>
       <h4>full-stack devloper</h4>
       <br/>
-      <p> Lorem ipsum is a placeholder text commonly used <br/>
-         to demonstrate the visual form or a typeface <br/>
-         without relying meaningful content. Lorem ipsum may be used as<br/>
-          a placeholder before final copy is available</p>
+      
+      <p> As an aspiring full-stack developer, 
+        I am eager to embark on my journey <br/> in the world of web development.
+         Armed with a solid foundation in <br/>front-end technologies such as 
+         HTML, CSS, JavaScript and ReactJs, <br/> along with a budding proficiency in 
+         back-end languages like PHP and java, <br/> I am passionate about crafting seamless
+          and user-friendly web applications.</p>
      </div>
     </section>
     </div>

@@ -69,6 +69,8 @@ body{
     height: 35rem;
     width: 30rem;
    border-radius: 30% 70% 70% 30% / 30% 30% 70% 70%;
+   object-fit: cover;
+   object-position: top;
   }
  
   .text{
@@ -94,7 +96,7 @@ body{
   .text>p{
     font-size: 1.4rem;
     color: #aaa;
-   
+    line-height: 1.6;
   }
   @media screen and (max-width: 1030px) {
     .image>img{
@@ -123,6 +125,12 @@ body{
     }
   }
   @media screen and (max-width: 425px) {
+    .home
+  {
+    width: 100%;
+    height: 120vh;
+   
+  }
     .image{
       width: 100%;
       text-align: center;
@@ -137,10 +145,12 @@ body{
       
     }
     .text>h4{
-      font-size: 1.8rem;
+      font-size: 1.9rem;
     }
     .text>p{
-      font-size: 1rem;
+      font-size: 1.5rem;
+      line-height: 1.1;
+      
     }
   }
   @media screen and (max-width: 325px) {
@@ -158,10 +168,11 @@ body{
       font-size: 1.9rem;  
     }
     .text>h4{
-      font-size: 1.4rem;
+      font-size: 1.5rem;
     }
     .text>p{
-      font-size: 0.8rem;
+      font-size: 0.9rem;
+      
     }
   }
 
@@ -521,21 +532,25 @@ font-size: 1.5rem;
     @media screen and (max-width: 375px){
   
       .titele-text{
-        font-size: 2.6rem;
+        font-size: 2.9rem;
+       
       }
       .box--container{
         margin-top: -50px;
+        width: auto;
         display: flex;
         flex-wrap: wrap;
-        gap: 0px;
+        gap: 10px;
         margin-left: 0px;
       }
-      
+      .e-box{
+        margin-top: 1px !important;
+      }
         .e-box>h3{
         color: #fff;
-        font-size: 0.8rem;
-         padding-top: 20px;
-         padding-left: 35px;
+        font-size: 1rem;
+         padding-top: 30px;
+         padding-left: 40px;
         }
         .e-box>span{
           color: #aaa;
