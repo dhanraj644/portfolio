@@ -768,8 +768,9 @@ font-size: 1.5rem;
         color: #fff;
         font-size: 25px;
       }
-      .info>p{
+      .info>p ,.info>a{
         color: #aaa;
+        text-decoration: none;
       }
       .share{
         padding: 10px;
@@ -814,6 +815,7 @@ font-size: 1.5rem;
         margin-top: 10px;
         background-color: #1a1a1a;
         color: #aaa;
+        border: 2px solid crimson;
       }
       .form-div>form>.input2{
         border-radius: 12px;
@@ -823,6 +825,7 @@ font-size: 1.5rem;
         height: 50px;
         margin: 6px;
         background-color: #1a1a1a;
+        border: 2px solid crimson;
         
       }
       .form-div>form>.btn-form{

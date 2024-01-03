@@ -23,7 +23,7 @@ function Contact() {
        <i class='fas fa-envelope'></i>
        <div className='info'>
         <h3>Email:</h3><br/>
-        <p>malidhanraj644@gmail.com</p>
+       <a href='mailto:malidhanraj644@gmail.com'> <p>malidhanraj644@gmail.com</p></a>
        </div>
       </div>
 
@@ -31,7 +31,7 @@ function Contact() {
        <i class='fas fa-phone'></i>
        <div className='info'>
         <h3>Number :</h3><br/>
-        <p>+91 8306056316</p>
+       <a href='tel:+918306056316'> <p>+91 8306056316</p></a>
        </div>
       </div>
 
