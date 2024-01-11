@@ -1,6 +1,9 @@
 import React from 'react'
+import Typed from 'react-typed'
 import Dhanraj from './images/Dhanraj.jpeg'
 export const Home = () => {
+
+
   return (
    
     <div className='home' >
@@ -10,9 +13,19 @@ export const Home = () => {
      </div>
 
      <div className='text'>
-      <h2>Hi, iam dhanraj mali</h2>
+      <h2>Hi, iam Dhanraj Mali</h2>
       <br/>
-      <h4>full-stack devloper</h4>
+      
+      <h4><Typed 
+        strings={[
+          "I Am Full Stack Devloper",
+          "I Am Software Engineer",
+          "I Am Web Devloper "
+        ]}
+        typeSpeed={110}
+        backSpeed={150}
+        loop
+      /></h4>
       <br/>
       
       <p> As an aspiring full-stack developer, 

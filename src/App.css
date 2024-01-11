@@ -51,7 +51,7 @@ body{
 .home
   {
     width: 100%;
-    height: 110vh;
+    height: 100%;
     padding-bottom: 5rem;
     background-color: #0d0d0d;
   }
@@ -128,7 +128,7 @@ body{
     .home
   {
     width: 100%;
-    height: 120vh;
+    height: 100%;
    
   }
     .image{
@@ -825,8 +825,7 @@ font-size: 1.5rem;
         height: 50px;
         margin: 6px;
         background-color: #1a1a1a;
-        border: 2px solid crimson;
-        
+        border: 2px solid crimson; 
       }
       .form-div>form>.btn-form{
         border-radius: 12px;
