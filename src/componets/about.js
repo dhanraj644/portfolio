@@ -27,15 +27,15 @@ const About = () => {
         <h3><span>adress : </span>Rajasthan,india</h3>
         </div>
         <div className='box2'>
-        <h3><span>Skill : </span>full-stack</h3>
-        <h3><span>Experience : </span>2 months</h3>
+        <h3><span>Skill : </span>Full-Stack</h3>
+        <h3><span>Experience : </span>Fresher</h3>
         <h3><span>Language : </span>Hindi/English</h3>
         </div>
       </div>
       
       <a href={Resume} download="Rsume.pdf">
-      <div id='toggel-open' className='btn' > 
-        <span> resume</span>
+      <div  className='btn' > 
+        <span>Resume</span>
         <i class='fas fa-download'></i>
         </div>
         </a>

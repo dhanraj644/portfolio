@@ -250,22 +250,11 @@ body{
     color: crimson;
     height: 2.5rem;
     line-height: 2rem;
-    margin-left: 2rem;
+    margin-left: 1.6rem;
     text-align: center;
     width: 2.5rem;
   }
-  .btn:hover{
-    width: 8.2rem;
-  }
-  .btn:hover  i{
-    margin-left: 6rem;
   
-  }
-  .btn:hover  span{
-      margin-top: 7px;
-      position: absolute;
-  }  
-
   .resume_section{
     display: flex;
     justify-content: center;

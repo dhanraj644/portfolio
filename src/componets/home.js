@@ -1,5 +1,7 @@
 import React from 'react'
-import Typed from 'react-typed'
+// import {Typed}  from 'react-typed';
+import {ReactTyped}  from 'react-typed';
+
 import Dhanraj from './images/Dhanraj.jpeg'
 export const Home = () => {
 
@@ -16,7 +18,7 @@ export const Home = () => {
       <h2>Hi, iam Dhanraj Mali</h2>
       <br/>
       
-      <h4><Typed 
+      <h4><ReactTyped
         strings={[
           "I Am Full Stack Devloper",
           "I Am Software Engineer",
@@ -25,7 +27,8 @@ export const Home = () => {
         typeSpeed={110}
         backSpeed={150}
         loop
-      /></h4>
+      />
+      </h4>
       <br/>
       
       <p> As an aspiring full-stack developer, 
