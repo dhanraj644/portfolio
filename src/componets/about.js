@@ -1,16 +1,12 @@
 import React from 'react';
 import Skill from './skill';
 import Resume from './images/resume.pdf';
-
-
-
+import Certificate from './Certificate';
 
 const About = () => {
 
   return (
     <>
-    <section className='resume_section' >
-    </section>
     <section className='about-page'>
         <center>
         <h2 className='titele-text'>ABOUT <span>ME</span></h2>
@@ -41,6 +37,8 @@ const About = () => {
         </a>
 
         <Skill/>
+        <br/>
+        <Certificate/>
     </section>
     
      

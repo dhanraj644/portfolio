@@ -11,9 +11,7 @@ const APP=()=>
 {
 return(
        <>
-       <BrowserRouter>
-      
-       
+       <BrowserRouter> 
        <Routes>
         <Route exact path='/' element={<Home/>}/>
         <Route exact path='/about' element={<About/>}/>
