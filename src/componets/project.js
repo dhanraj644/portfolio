@@ -1,5 +1,6 @@
 import React from 'react'
 import project1 from './images/project1.jpg'
+import project2img from './images/wear-it.png'
 function Project() {
   return (
     <secton>
@@ -17,27 +18,23 @@ function Project() {
                   tourist places among which main places 
                   are the</p>
                   <center>
-                  <a href='https://aburoadtourism.com/' target='blank'>view Project</a>
-                  </center>
-                 
-
+                  <a href='https://aburoadtourism.com/' target='blank'>View Project</a>
+                  </center> 
               </div>
             <img src={project1}></img>
             </div>
+
             <div className='p-box'>
-            <div className='overlay' style={{display: "block"}}>
+            <div className='overlay'>
                 <center>
-                <h3></h3> 
+                <h3>Wear-it</h3> 
                 </center>
                 <p></p>
                   <center>
-                  <a href='#'>Soon !</a>
-                  </center>
-                 
-
+                  <a href='https://wearit-eosin.vercel.app/'  target='blank'>View Project</a>
+                  </center>  
               </div>
-            <img ></img>
-            
+            <img  src={project2img}></img>
           </div>
           <div className='p-box'>
 
