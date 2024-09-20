@@ -96,7 +96,8 @@ body{
   .text>p{
     font-size: 1.4rem;
     color: #aaa;
-    line-height: 1.6;
+    line-height: 1.8;
+   
   }
   @media screen and (max-width: 1030px) {
     .image>img{
@@ -149,7 +150,8 @@ body{
     }
     .text>p{
       font-size: 1.5rem;
-      line-height: 1.1;
+      line-height: 1.2;
+      padding: 15px;
       
     }
   }
