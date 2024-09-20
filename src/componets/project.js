@@ -39,7 +39,7 @@ function Project() {
           <div className='p-box'>
 
 
-          <div className='overlay' style={{display: "block"}}>
+          <div className='overlay' style={{display: "block"}} >
                 <center>
                 <h3></h3> 
                 </center>
