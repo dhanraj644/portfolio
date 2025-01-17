@@ -35,7 +35,7 @@ export const Home = () => {
         I am eager to embark on my journey <br/> in the world of web development.
          Armed with a solid foundation in <br/>front-end technologies such as 
          HTML, CSS, JavaScript and ReactJs, <br/> along with a budding proficiency in 
-         back-end languages like PHP and java, <br/> I am passionate about crafting seamless
+         back-end languages like Node j.s and PHP, <br/> I am passionate about crafting seamless
           and user-friendly web applications.</p>
      </div>
     </section>

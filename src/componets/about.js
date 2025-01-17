@@ -1,6 +1,6 @@
 import React from 'react';
 import Skill from './skill';
-import Resume from './images/resume.pdf';
+import Resume from './images/dhanrajmali.pdf';
 import Certificate from './Certificate';
 
 const About = () => {
@@ -17,10 +17,10 @@ const About = () => {
       </div>
       <div className='container'>
         <div className='box1'>
-        <h3><span>NAME : </span>Dhanraj</h3>
-        <h3><span>AGE : </span>21</h3>
+        <h3><span>NAME : </span>Dhanraj Mali</h3>
+        <h3><span>AGE : </span>22</h3>
         <h3><span>EMAIL : </span>malidhanraj644@gmail.com</h3>
-        <h3><span>adress : </span>Rajasthan,india</h3>
+        <h3><span>ADDRESS : </span>Mount Abu,Rajasthan,india</h3>
         </div>
         <div className='box2'>
         <h3><span>Skill : </span>Full-Stack</h3>
@@ -38,7 +38,7 @@ const About = () => {
 
         <Skill/>
         <br/>
-        <Certificate/>
+        {/* <Certificate/> */}
     </section>
     
      
